@@ -69,11 +69,11 @@ Centers and scales your filter graphic over the target region (scaling to ~2.5�
   >>>Show live feed with cv2.imshow() and FPS label
 
 # Usage
->Run:
+Run:
 
-main.py
+>main.py
 
->Use ESC to exit real-time filter mode.
+Use ESC to exit real-time filter mode.
 
 # Static Image Demos
 Within your script, call:
@@ -83,8 +83,8 @@ python:
 detectFacialLandmarks(cv2.imread("media/sample2.jpg"), face_mesh_images)
 isOpen(...), overlay(...)
 
-To visualize filter effects on sample images.
+.To visualize filter effects on sample images.
 
 # Acknowledgements
-Built upon concepts from the tutorial "Facial Landmark Detection with MediaPipe – Creating Animated Snapchat Filters" by Bleed AI Academy.
+>Built upon concepts from the tutorial "Facial Landmark Detection with MediaPipe – Creating Animated Snapchat Filters" by Bleed AI Academy.
 
