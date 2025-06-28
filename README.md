@@ -11,19 +11,22 @@ Showcase your creativity by applying real-time animated filters (like smoke on o
 
 ->Overlays dynamic filters:
 
-    ->>Animated smoke when mouth is open
+>>Animated smoke when mouth is open
     
-    ->>Custom PNG filters on open eyes
+>>Custom PNG filters on open eyes
 
 ->Smooth real-time webcam performance (60 + FPS on modern CPUs/GPU)
 
 # Setup
 ->Install dependencies:
- ->>pip install opencv-python mediapipe matplotlib numpy
+
+    ->>pip install opencv-python mediapipe matplotlib numpy
  
 ->Create a media/ folder containing:
  ->>left_eye.png, right_eye.png (transparent overlays)
+ 
  ->>smoke_animation.mp4 (looping smoke/video file)
+ 
  ->>Test images: sample.jpg, sample2.jpg, sample3.jpg
 
 # How It Works
