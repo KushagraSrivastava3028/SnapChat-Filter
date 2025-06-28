@@ -1,6 +1,7 @@
 # SnapChat-Filter
 Animated Snapchat-style Filters with MediaPipe
-Showcase your creativity by applying real-time animated filters (like smoke on open mouth or glowing eyes) using MediaPipe's face landmark detection and OpenCV.
+
+Showcaseing creativity by applying real-time animated filters (like smoke on open mouth or glowing eyes) using MediaPipe's face landmark detection and OpenCV.
 
 # Features
 >Detects faces using MediaPipe Face Detection
@@ -55,17 +56,24 @@ status = {face_id: "OPEN" if ratio > threshold else "CLOSE"}
 cv2.putText(...)
 
 >>overlay(image, filter_img, face_landmarks, face_part, INDEXES, display=True)
->>
+
 Centers and scales your filter graphic over the target region (scaling to ~2.5 × detected height), applying proper masking to preserve transparency.
 
 >Real-time Loop (Webcam + Filters)
  >>Opens webcam via OpenCV (VideoCapture(0) or 2)
+
  >>Syncs animated smoke using frame counters and resets at end-of-loop
+
  >>For each frame:
+
   >>>Flip for selfie view
+  
   >>>Detect landmarks
+  
   >>>Check open-state of mouth/eyes
+  
   >>>Overlay filters conditionally
+  
   >>>Show live feed with cv2.imshow() and FPS label
 
 # Usage
@@ -83,7 +91,7 @@ python:
 detectFacialLandmarks(cv2.imread("media/sample2.jpg"), face_mesh_images)
 isOpen(...), overlay(...)
 
-.To visualize filter effects on sample images.
+To visualize filter effects on sample images.
 
 # Acknowledgements
 >Built upon concepts from the tutorial "Facial Landmark Detection with MediaPipe – Creating Animated Snapchat Filters" by Bleed AI Academy.
