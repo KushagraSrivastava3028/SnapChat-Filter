@@ -11,9 +11,9 @@ Showcase your creativity by applying real-time animated filters (like smoke on o
 
 ->Overlays dynamic filters:
 
- ->>Animated smoke when mouth is open
- 
- ->>Custom PNG filters on open eyes
+    ->>Animated smoke when mouth is open
+    
+    ->>Custom PNG filters on open eyes
 
 ->Smooth real-time webcam performance (60 + FPS on modern CPUs/GPU)
 
