@@ -4,11 +4,17 @@ Showcase your creativity by applying real-time animated filters (like smoke on o
 
 # Features
 ->Detects faces using MediaPipe Face Detection
+
 ->Extracts 468 facial landmarks in real time with Face Mesh
+
 ->Geometric logic to determine if eyes or mouth are open
+
 ->Overlays dynamic filters:
+
  ->>Animated smoke when mouth is open
+ 
  ->>Custom PNG filters on open eyes
+
 ->Smooth real-time webcam performance (60 + FPS on modern CPUs/GPU)
 
 # Setup
